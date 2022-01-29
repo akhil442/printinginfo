@@ -1,0 +1,40 @@
+class Printinginfo
+{
+    void name(String a )
+    {
+        System.out.println("name is :" +a);
+    }
+     void year(int b )
+    {
+        System.out.println("year of joining is :" +b);
+    }
+     void address(String c)
+    {
+        System.out.println("address  is :" +c);
+    }
+     void salary(float d)
+    {
+        System.out.println("salary is :" +d);
+    }
+}
+class Main
+{
+ public static void main (String args[]) 
+    {
+        Printinginfo pf = new Printinginfo();
+        pf.name("Robert");
+        pf.year(1994);
+        pf.address("WallsStreet");
+        pf.salary(64);
+        
+        pf.name("Sam");
+        pf.year(2000);
+        pf.address("WallsStreet");
+        pf.salary(68);
+        
+        pf.name(" John");
+        pf.year(1999);
+        pf.address("WallsStreet");
+        pf.salary(26);
+    }
+}
